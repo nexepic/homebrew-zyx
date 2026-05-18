@@ -5,6 +5,7 @@ class Zyx < Formula
   sha256 "dd5574eec8d0b19f44e48858a4a89b7ce032921e50237ff8609f3fd6c9feefb7"
   license "Apache-2.0"
 
+  depends_on "cmake" => :build
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkg-config" => :build
