@@ -1,8 +1,8 @@
 class Zyx < Formula
   desc "High-performance embeddable graph database with Cypher query support"
   homepage "https://github.com/nexepic/zyx"
-  url "https://github.com/nexepic/zyx/archive/refs/tags/v0.1.24.tar.gz"
-  sha256 "d833d92b1fca8755f937edfe21f64e704b4c278f239ebb65b1273918113a693d"
+  url "https://github.com/nexepic/zyx/archive/refs/tags/v0.1.25.tar.gz"
+  sha256 "589fab836c5e260f2e7347ed49dfa4120956cd3225031217d0b93e141d03f060"
   license "Apache-2.0"
 
   depends_on "cmake" => :build
